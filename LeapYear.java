@@ -16,6 +16,9 @@ class LeapYear
 			
 			}		
 		}
+		else{
+			System.out.print(number+"is  a leap year");
+		}
 		
 	}
 	else{
