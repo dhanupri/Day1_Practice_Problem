@@ -19,8 +19,8 @@ class Toss{
         }
         System.out.print(head+" "+tail);
 
-        double percentageHeads=(double) head/number*100;
-        double percentageTails=(double) tail/number*100;
+        double percentageHeads=((double) head*100)/number;
+        double percentageTails=((double) tail*100)/number;
         System.out.println("Heads percentage:"+percentageHeads);
         System.out.println("Tails percentage"+percentageTails);
 
